@@ -1,3 +1,5 @@
+package pictures.figures;
+
 import java.awt.*;
 
 /**
@@ -5,4 +7,5 @@ import java.awt.*;
  */
 public interface Figure {
     public void draw(Graphics g);
+    public void setParameters(int...parameters);
 }

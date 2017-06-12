@@ -1,3 +1,5 @@
+package pictures.figures;
+
 /**
  * Created by UserPc on 10.06.2017.
  */

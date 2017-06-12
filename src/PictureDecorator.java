@@ -1,13 +1,15 @@
+import pictures.Picture;
+
 import java.awt.*;
 
 /**
  * Created by UserPc on 10.06.2017.
  */
 public abstract class PictureDecorator {
-    private Figure figure;
+    private Picture picture;
 
-    public PictureDecorator(Figure figure) {
-        this.figure = figure;
+    public PictureDecorator(Picture picture) {
+        this.picture = picture;
     }
 
     public abstract void paint(Graphics g);
