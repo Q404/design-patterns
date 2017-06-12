@@ -22,6 +22,8 @@ public class Runner {
         NastyaPicture nastyaPicture = new NastyaPicture();
         MaslinichevaPicture maslinichevaPicture = new MaslinichevaPicture();
         KarolinaPicture karolinaPicture = new KarolinaPicture();
+        AlenaPicture alenaPicture = new AlenaPicture();
+        SamsonPicture samsonPicture = new SamsonPicture();
 
         /* Main window creating */
 
@@ -46,6 +48,8 @@ public class Runner {
         pictureJComboBox.addItem(nastyaPicture);
         pictureJComboBox.addItem(maslinichevaPicture);
         pictureJComboBox.addItem(karolinaPicture);
+        pictureJComboBox.addItem(samsonPicture);
+        pictureJComboBox.addItem(alenaPicture);
         tabBar.add(pictureJComboBox, BorderLayout.LINE_START);
         // ---
         JComboBox<String> pictureColorDecoratorJComboBox = new JComboBox<>();
